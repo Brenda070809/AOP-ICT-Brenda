@@ -1,0 +1,77 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background: powderblue;
+    font-family: 'Segoe UI', sans-serif;
+    height:100vh;
+    align-items: center;
+    justify-content: center;
+    margin:0;
+    display: flex;
+}
+body {
+  background: radial-gradient(#000046, #1cb5e0);
+}
+
+.container {
+    max-width: 400px;
+    width:100%;
+    background:white;
+    margin: 50px auto;
+    border-radius: 25px;
+    text-align: center;
+    padding: 50px 40px;
+    border-style: double;
+    border-width: 7px;
+    border-color: powderblue;
+    height: 400px;
+    text-shadow: 0 0 10px powderblue, 0 0 20px powderblue, 0 0 30px powderblue, 0 0 40px powderblue, 0 0 50px powderblue, 0 0 60px powderblue, 0 0 70px powderblue;
+}
+
+.border{
+    width: 200px;
+    height: 200px;
+    border-radius: 8px;
+}
+
+button{
+    margin-top: 10px;
+    padding: 10px 20px;
+    border:none;
+    cursor:pointer;
+    background: deepskyblue;
+    color:white;
+    border-radius:8px;
+    trasition: background 0.3s ease;
+}
+
+button:hover {
+    background: powderblue;
+
+}
+#overlay {
+    display: none;
+    position: fixed;
+    top: 0; left: 0;
+    width: 100%;
+    height: 100%;
+    background: linear-gradient(#000046, #1cb5e0);;
+    z-index: 1;
+
+}
+#Alert {
+    display: none;
+    position: fixed;
+    top: 50%; left: 50%;
+    transform: translate(-50%, -50%);
+    background: white;
+    padding: 25px 50px;
+    box-shadow: 5px 5px 30px powderblue;
+    border-radius: 15px;
+    z-index: 1;
+    text-align: center;
+}
